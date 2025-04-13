@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <!-- Bootstrap link from CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- This is my header section, starts here -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container">
+          <a class="navbar-brand text-white" href="#">Traveller</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Explore
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">About</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Contact</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- this is my header section, ends here -->
+
+    <!-- This is my main section, starts hear -->
+    <main>
+      <!-- This is my hero section, starts here -->
+      <section class="hero_section">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Assets/Image/one.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="Assets/Image/two.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Assets/Image/three.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Assets/Image/four.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Assets/Image/five.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- This is my hero section, starts here -->
+
+      <!-- This is my service section, starts here -->
+      <section>
+        <h1 class="text-center pt-5 pb-5">Explore Our Service Today</h1>
+        <div class="container">
+          <div class="row justify-content-center gap-5">
+            <div class="col-lg-3 d-flex justify-content-center">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="/Assets/Image/six.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text .</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="/Assets/Image/one.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="/Assets/Image/three.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- This is my service section, ends here -->
+    </main>
+    <!-- this is my main section, ends here -->
+    <!-- this is my footer section, starts here -->
+    <footer class="p-5 mt-5 bg-dark text-center text-white">
+      <p>Copyright 2025 Traveller, All rights reserved!</p>
+    </footer>
+    <!-- this is my footer section, ends here -->
+  </body>
+  <!-- Bootstrap script for javascript -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"
+  ></script>
+</html>

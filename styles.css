@@ -1,0 +1,12 @@
+.hero_section img {
+  height: 70vh;
+}
+
+@media screen and (max-width: 700px) {
+  . row_container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+}
